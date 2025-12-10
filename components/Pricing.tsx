@@ -23,7 +23,7 @@ const Pricing: React.FC = () => {
               <span className="font-anton text-5xl md:text-6xl tracking-tight text-tangerine">Gratuito</span>
             </div>
             <p className="font-inter text-gray-300 mb-8 flex-grow">
-              Acesso liberado para todos os alunos matriculados em qualquer turma do Áurea 2026.
+              Acesso liberado para todos os alunos matriculados em qualquer turma do Áurea 2025.
             </p>
             <a
               href="https://delicategiantpanda-n8n.cloudfy.live/form/109ad8be-aacc-4f3d-ab30-29e65505fb3f"
