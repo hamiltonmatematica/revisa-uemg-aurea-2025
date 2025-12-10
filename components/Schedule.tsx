@@ -25,7 +25,7 @@ const januaryEvents: Event[] = [
   {
     date: '07-10 Jan',
     title: 'Fala, Áurea',
-    description: 'Áudios de revisão rápida com os tópicos essenciais da prova',
+    description: 'Fala, Áurea revisional rápida com os tópicos essenciais da prova',
     subDescription: 'Formato de podcast para o aluno estudar de forma leve e contínua',
     type: 'audio'
   },
@@ -83,11 +83,11 @@ const Schedule: React.FC = () => {
         <div className="mb-16">
           <div className="bg-[#1e1629] rounded-3xl p-8 md:p-12 border border-white/10 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden group hover:border-electric/50 transition-colors duration-300">
             <div className="absolute top-0 left-0 w-2 h-full bg-electric"></div>
-            
+
             <div className="bg-electric p-4 rounded-full">
               <BookOpen className="w-8 h-8 text-white" />
             </div>
-            
+
             <div className="flex-1 text-center md:text-left">
               <span className="inline-block py-1 px-3 rounded-full bg-white/10 text-sm font-bold uppercase tracking-wider mb-2 text-tangerine">Etapa 1</span>
               <h3 className="font-anton text-3xl mb-2">Cadernos Teóricos</h3>
@@ -113,7 +113,7 @@ const Schedule: React.FC = () => {
                   </div>
                   <span className="font-anton text-xl text-white/50">{event.date}</span>
                 </div>
-                
+
                 <h4 className="font-bold text-xl mb-2 text-white">{event.title}</h4>
                 {event.description && (
                   <p className="text-white/70 text-sm mb-2">{event.description}</p>
